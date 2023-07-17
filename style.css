@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  font-weight: 500;
+}
+
+p{
+  font-size: 20px;
+}
+
+.section-padding{
+  padding: 100px 0;
+}
+
+.bold{
+  font-weight: 500;
+}
+
+/* Navbar */
+.navbar .container{
+  display: flex;
+}
+
+.navbar .navbar-brand{
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-nav a{
+  color: #000;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link{
+  color: #000;
+}
+
+
+/* Summary */
+.summary img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Education */
+.education{
+  padding-top: 75px;
+}
+
+.education h5{
+  line-height: 1.75rem;
+}
+
+/* Work Experience */
+.work-experience img{
+  height: 300px;
+  width: 300px;
+}
+
+/* Skills */
+.skills h3{
+  display: inline-block;
+  font-size: 24px;
+}
+
+.skills .icons{
+  font-size: 24px;
+}
+
+/* Awards */
+.awards ul li{
+  word-spacing: 5px;
+  margin-left: 35px;
+}
+
+/* Hobbies */
+.hobbies img{
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightgreen;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Contact Details */
+.contact-details i{
+  font-size: 30px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px){
+  .navbar-nav{
+    text-align: center;
+  }
+  .education .col-sm-12{
+    margin-bottom: 40px;
+  }
+  .work-experience .col-lg-6{
+    margin-bottom: 40px;
+  }
+}
