@@ -1,2 +1,6 @@
 # MyResume
-Done using Bootstrap
+
+## Technologies Used
+* HTML
+* CSS
+* Bootstrap
